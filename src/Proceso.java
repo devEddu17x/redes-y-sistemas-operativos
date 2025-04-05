@@ -9,4 +9,14 @@ public class Proceso {
         this.tRafaga = tRafaga;
         this.tRestante = tRafaga;
     }
+
+    @Override
+    public String toString() {
+        return "Proceso{" +
+                "idP=" + idP +
+                ", tRestante=" + tRestante +
+                ", tLlegada=" + tLlegada +
+                ", tRafaga=" + tRafaga +
+                '}';
+    }
 }
